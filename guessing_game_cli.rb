@@ -7,9 +7,9 @@ def run_guessing_game
   user_input = gets.strip
 
   if user_input.to_i == num
-    "You guessed the correct number!"
+    return "You guessed the correct number!"
   elsif user_input.to_s.downcase == "exit"
-    "Goodbye!"
+    return "Goodbye!"
   else
     return "Sorry! The computer guessed #{num}."
   end
