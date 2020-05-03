@@ -1,7 +1,7 @@
 # Code your solution here!
 
 def run_guessing_game
-  num = rand(1..6)
+  num = rand(1..6) 
 
   puts "Please put in a number from 1 to 6!"
   user_input = gets.strip
