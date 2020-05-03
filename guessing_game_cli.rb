@@ -11,6 +11,6 @@ def run_guessing_game
   elsif user_input.to_s.downcase == "exit"
     "Goodbye!"
   else
-    "Sorry! The computer guessed #{num}."
+    return "Sorry! The computer guessed #{num}."
   end
 end
