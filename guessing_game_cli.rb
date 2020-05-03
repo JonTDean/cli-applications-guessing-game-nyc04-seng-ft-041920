@@ -7,10 +7,10 @@ def run_guessing_game
   user_input = gets.strip
 
   if user_input.to_i == num
-    p "You guessed the correct number!"
+    print "You guessed the correct number!"
   elsif user_input.to_s.downcase == "exit"
-    p "Goodbye!"
+    print "Goodbye!"
   else
-    p "Sorry! The computer guessed #{num}."
+    print "Sorry! The computer guessed #{num}."
   end
 end
